@@ -1,2 +1,2 @@
-# Virignia Lovejoy Allyn Art
+# Virginia Lovejoy Allyn Art
 
