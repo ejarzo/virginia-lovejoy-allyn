@@ -14,19 +14,19 @@ const typography = new Typography({
   baseFontSize: "18px",
   headerFontFamily: ["Merriweather", 'serif'],
   overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    // html: {
+    //   background: '#f4f4f4',
+    // },
     body: {
       color: '#222',
       padding: '15px',
       margin: '0 auto',
       maxWidth: '1000px',
     },
-    a: {
-      color: 'blue',
-      textDecoration: 'none',
-    },
-    'a:hover': {
-      color: 'black',
-    },
+    h1: {
+      textAlign: 'center',
+      margin: '50px auto'
+    }
   })
 });
 
